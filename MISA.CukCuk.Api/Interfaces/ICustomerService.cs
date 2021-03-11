@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MISA.CukCuk.Api.Interface
 {
-    interface ICustomerService:IBaseService
+    public interface ICustomerService:IBaseService
     {
         IEnumerable<Customer> GetCustomerByCode(string customerCode);
     }

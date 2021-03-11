@@ -14,14 +14,10 @@ namespace MISA.CukCuk.Api.Api
     public class CustomersController : BaseController<Customer>
     {
         ICustomerService _customerService;
-        public CustomersController(ICustomerService customerService, IBaseService baseService) : base(baseService)
+        public CustomersController(ICustomerService customerService , IBaseService baseService):base(baseService)
         {
             _customerService = customerService;
         }
-        /*  public CustomersController(ICustomerService customerService, IBaseService baseService) : base(baseService)
-          {
-              _customerService = customerService;
-          }*/
 
         [HttpGet("code")]
         public IActionResult GetCustomerByCode(string customerCode)

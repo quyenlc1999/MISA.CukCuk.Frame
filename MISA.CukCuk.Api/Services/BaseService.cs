@@ -67,8 +67,15 @@ namespace MISA.CukCuk.Api.Services
         {
             var className = typeof(MISAEntity).Name;
             var procName = $"Proc_Delete{className}";
-            var res = _dbConnection.Execute(procName, entity, commandType: CommandType.StoredProcedure);
+         //   var sql = $"DELETE FROM {className} WHERE {className}Id = '{entity}'";
+            var dynamicParams = new DynamicParameters();
+            dynamicParams.Add($"@Id", entity.ToString());
+            //   var classNameId = $"{className}Id";
+         //   var res = _dbConnection.Execute(sql, commandType: CommandType.Text);
+            var res = _dbConnection.Execute(procName,
+                                            param: dynamicParams,
+                                            commandType: CommandType.StoredProcedure);
             return res;
-        }
+        }   
     }
 }
