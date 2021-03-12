@@ -25,8 +25,9 @@
     ".NETCoreApp,Version=v5.0": {
       "MISA.CukCuk.Api/1.0.0": {
         "dependencies": {
+          "Common": "1.0.0",
           "Dapper": "2.0.78",
-          "MySqlConnector": "1.2.1",
+          "MySqlConnector": "1.3.1",
           "Swashbuckle.AspNetCore": "5.6.3",
           "System.Data.SqlClient": "4.8.2",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
@@ -350,11 +351,11 @@
           "System.Security.Principal.Windows": "4.7.0"
         }
       },
-      "MySqlConnector/1.2.1": {
+      "MySqlConnector/1.3.1": {
         "runtime": {
           "lib/net5.0/MySqlConnector.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.2.1.0"
+            "fileVersion": "1.3.1.0"
           }
         },
         "compile": {
@@ -479,6 +480,14 @@
         }
       },
       "System.Security.Principal.Windows/4.7.0": {},
+      "Common/1.0.0": {
+        "runtime": {
+          "Common.dll": {}
+        },
+        "compile": {
+          "Common.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Antiforgery.dll": {}
@@ -2220,12 +2229,12 @@
       "path": "microsoft.win32.registry/4.7.0",
       "hashPath": "microsoft.win32.registry.4.7.0.nupkg.sha512"
     },
-    "MySqlConnector/1.2.1": {
+    "MySqlConnector/1.3.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-B+uQUXBhWibjQBaOe+GXXTEm573HGQU2M2NR8BKdyEEBxzGui8OVTL+dtW5Jg4FwovvW4Y1uMOKeBdmI5tQltA==",
-      "path": "mysqlconnector/1.2.1",
-      "hashPath": "mysqlconnector.1.2.1.nupkg.sha512"
+      "sha512": "sha512-bZB0dr9rlnYhJpB7eO7IqEkrH2pziWTFgs2UFgsVaNieXopZy7BTMaOT0xgQtC2rnclUW2MxAQos3+IoxVOJQg==",
+      "path": "mysqlconnector/1.3.1",
+      "hashPath": "mysqlconnector.1.3.1.nupkg.sha512"
     },
     "runtime.native.System.Data.SqlClient.sni/4.7.0": {
       "type": "package",
@@ -2303,6 +2312,11 @@
       "sha512": "sha512-ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
       "path": "system.security.principal.windows/4.7.0",
       "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
+    },
+    "Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
       "type": "referenceassembly",

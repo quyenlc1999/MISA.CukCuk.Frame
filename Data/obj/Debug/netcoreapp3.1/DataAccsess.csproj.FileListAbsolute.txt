@@ -1,0 +1,12 @@
+C:\Users\LCQUYEN\source\MISA.CukCukFrame\MISA.CukCuk.Frame\Data\bin\Debug\netcoreapp3.1\DataAccsess.deps.json
+C:\Users\LCQUYEN\source\MISA.CukCukFrame\MISA.CukCuk.Frame\Data\bin\Debug\netcoreapp3.1\DataAccsess.dll
+C:\Users\LCQUYEN\source\MISA.CukCukFrame\MISA.CukCuk.Frame\Data\bin\Debug\netcoreapp3.1\DataAccsess.pdb
+C:\Users\LCQUYEN\source\MISA.CukCukFrame\MISA.CukCuk.Frame\Data\bin\Debug\netcoreapp3.1\Common.dll
+C:\Users\LCQUYEN\source\MISA.CukCukFrame\MISA.CukCuk.Frame\Data\bin\Debug\netcoreapp3.1\Common.pdb
+C:\Users\LCQUYEN\source\MISA.CukCukFrame\MISA.CukCuk.Frame\Data\obj\Debug\netcoreapp3.1\DataAccsess.csprojAssemblyReference.cache
+C:\Users\LCQUYEN\source\MISA.CukCukFrame\MISA.CukCuk.Frame\Data\obj\Debug\netcoreapp3.1\DataAccsess.AssemblyInfoInputs.cache
+C:\Users\LCQUYEN\source\MISA.CukCukFrame\MISA.CukCuk.Frame\Data\obj\Debug\netcoreapp3.1\DataAccsess.AssemblyInfo.cs
+C:\Users\LCQUYEN\source\MISA.CukCukFrame\MISA.CukCuk.Frame\Data\obj\Debug\netcoreapp3.1\DataAccsess.csproj.CoreCompileInputs.cache
+C:\Users\LCQUYEN\source\MISA.CukCukFrame\MISA.CukCuk.Frame\Data\obj\Debug\netcoreapp3.1\DataAccsess.csproj.CopyComplete
+C:\Users\LCQUYEN\source\MISA.CukCukFrame\MISA.CukCuk.Frame\Data\obj\Debug\netcoreapp3.1\DataAccsess.dll
+C:\Users\LCQUYEN\source\MISA.CukCukFrame\MISA.CukCuk.Frame\Data\obj\Debug\netcoreapp3.1\DataAccsess.pdb

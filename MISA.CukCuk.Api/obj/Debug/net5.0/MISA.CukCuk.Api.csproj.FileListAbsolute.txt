@@ -146,3 +146,5 @@ C:\Users\LCQUYEN\source\MISA.CukCukFrame\MISA.CukCuk.Frame\MISA.CukCuk.Api\obj\D
 C:\Users\LCQUYEN\source\MISA.CukCukFrame\MISA.CukCuk.Frame\MISA.CukCuk.Api\obj\Debug\net5.0\ref\MISA.CukCuk.Api.dll
 C:\Users\LCQUYEN\source\MISA.CukCukFrame\MISA.CukCuk.Frame\MISA.CukCuk.Api\obj\Debug\net5.0\MISA.CukCuk.Api.pdb
 C:\Users\LCQUYEN\source\MISA.CukCukFrame\MISA.CukCuk.Frame\MISA.CukCuk.Api\obj\Debug\net5.0\MISA.CukCuk.Api.genruntimeconfig.cache
+C:\Users\LCQUYEN\source\MISA.CukCukFrame\MISA.CukCuk.Frame\MISA.CukCuk.Api\bin\Debug\net5.0\Common.dll
+C:\Users\LCQUYEN\source\MISA.CukCukFrame\MISA.CukCuk.Frame\MISA.CukCuk.Api\bin\Debug\net5.0\Common.pdb

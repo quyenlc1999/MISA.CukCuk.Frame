@@ -1,4 +1,6 @@
-    using Microsoft.AspNetCore.Builder;
+using Common.Interfaces;
+using Common.Services;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -6,8 +8,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using MISA.CukCuk.Api.Interface;
-using MISA.CukCuk.Api.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -33,10 +33,12 @@ namespace MISA.CukCuk.Api
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "MISA.CukCuk.Api", Version = "v1" });
             });
-
             services.AddScoped<IBaseService, BaseService>();
+            services.AddScoped<IBaseResposity,BaseResposity>();          
+          //  services.AddScoped<ICustomerResposity, CutomerResopity>();
             services.AddScoped<ICustomerService, CustomerService>();
-        }
+          
+        }   
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
