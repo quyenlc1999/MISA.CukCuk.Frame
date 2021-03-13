@@ -1,7 +1,7 @@
 ﻿using Common.Interfaces;
 using Dapper;
 using DataAccess.Resposity;
-using MISA.CukCuk.Common.Model;
+using MISA.CukCuk.Common.Models;
 using System;
 using System.Collections.Generic;
 using System.Data;

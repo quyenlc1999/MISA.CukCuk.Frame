@@ -36,12 +36,12 @@ namespace DataAccess.Resposity
             var res;
         }*/
 
-        public int Insert<MISAEntity>(MISAEntity entity)
+        public object Insert<MISAEntity>(MISAEntity entity)
         {
             var className = typeof(MISAEntity).Name;
             string procName = $"Proc_Insert{className}";
             var res = _dbConnection.Execute(procName, entity, commandType: CommandType.StoredProcedure);
-            return res;
+            return res;         
         }
        
         public int Update<MISAEntity>(MISAEntity entity)
@@ -53,7 +53,7 @@ namespace DataAccess.Resposity
         }
       
         public int  Delete<MISAEntity>(Guid entityId)
-        {
+        {   
             var className = typeof(MISAEntity).Name;
             var procName = $"Proc_Delete{className}";
             //   var sql = $"DELETE FROM {className} WHERE {className}Id = '{entity}'";
@@ -76,6 +76,14 @@ namespace DataAccess.Resposity
             var res = _dbConnection.Query<MISAEntity>(procName,
                 param: dynamicParameters,
                 commandType: CommandType.StoredProcedure).FirstOrDefault();
+            return res;
+        }
+
+        public MISAEntity GetObjectByProperty<MISAEntity>(string propertyName, object propertyValue)
+        {
+            var className = typeof(MISAEntity).Name;
+            var sqlCommand = $"SELECT * FROM {className} WHERE {propertyName} = '{propertyValue}'";
+            var res = _dbConnection.Query<MISAEntity>(sqlCommand,commandType:CommandType.Text).FirstOrDefault();
             return res;
         }
     }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MISA.CukCuk.Common.Model
+namespace MISA.CukCuk.Common.Models
 {
     /// <summary>
     /// Thông tin trả về cho Api
@@ -14,7 +14,17 @@ namespace MISA.CukCuk.Common.Model
         /// <summary>
         /// Trạng thái service (true - thành công ; false-thất bại)
         /// </summary>
-        public bool Sussess { get; set; }
+        public bool Sussess
+        {
+            get
+            {
+                return Sussess;
+            }
+            set
+            {
+                Sussess = true;
+            }
+        }
         /// <summary>
         /// Dữ liệu trả về cHo API
         /// </summary>
@@ -23,5 +33,7 @@ namespace MISA.CukCuk.Common.Model
         /// Mã code trả về của Misa
         /// </summary>
         public string MISACode { get; set; }
+
+        public ErrorMsg msg { get; set; }
     }
 }

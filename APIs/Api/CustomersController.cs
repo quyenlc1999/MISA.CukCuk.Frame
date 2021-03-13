@@ -1,7 +1,7 @@
 ﻿using Common.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using MISA.CukCuk.Common.Model;
+using MISA.CukCuk.Common.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

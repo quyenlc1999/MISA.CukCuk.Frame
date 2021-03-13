@@ -1,6 +1,7 @@
 using Common.Interfaces;
 using Common.Services;
 using DataAccess.Resposity;
+using DataAccsess.Resposity;
 using DataAcess.Resposity;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -36,10 +37,12 @@ namespace APIs
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "APIs", Version = "v1" });
             });
-            services.AddScoped<IBaseService, BaseService>();
-            services.AddScoped<ICustomerService, CustomerService>();
             services.AddScoped<IBaseResposity, BaseResposity>();
+            services.AddScoped<IBaseService, BaseService>();
             services.AddScoped<ICustomerResposity, CutomerResopity>();
+            services.AddScoped<ICustomerService, CustomerService>();
+            services.AddScoped<ICustomerGroupResposity, CustomerGroupResposity>();
+            services.AddScoped<ICustomerGroupService, CustomerGroupService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

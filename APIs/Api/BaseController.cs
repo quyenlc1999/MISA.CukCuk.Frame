@@ -59,7 +59,7 @@ namespace MISA.CukCuk.Api.Api
         public IActionResult Post(MISAEntity entity)
         {
             var rowEffect = _baseService.Insert<MISAEntity>(entity);
-            if (rowEffect > 0)
+            if (rowEffect != null)
             {
                 return StatusCode(201, rowEffect);
             }

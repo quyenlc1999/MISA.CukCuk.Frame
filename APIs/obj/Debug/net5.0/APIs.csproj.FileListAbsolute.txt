@@ -35,3 +35,5 @@ C:\Users\LCQUYEN\source\MISA.CukCukFrame\MISA.CukCuk.Frame\APIs\obj\Debug\net5.0
 C:\Users\LCQUYEN\source\MISA.CukCukFrame\MISA.CukCuk.Frame\APIs\obj\Debug\net5.0\APIs.genruntimeconfig.cache
 C:\Users\LCQUYEN\source\MISA.CukCukFrame\MISA.CukCuk.Frame\APIs\obj\Debug\net5.0\APIs.Properties.Resource.resources
 C:\Users\LCQUYEN\source\MISA.CukCukFrame\MISA.CukCuk.Frame\APIs\obj\Debug\net5.0\APIs.csproj.GenerateResource.cache
+C:\Users\LCQUYEN\source\MISA.CukCukFrame\MISA.CukCuk.Frame\APIs\bin\Debug\net5.0\Elasticsearch.Net.dll
+C:\Users\LCQUYEN\source\MISA.CukCukFrame\MISA.CukCuk.Frame\APIs\bin\Debug\net5.0\Nest.dll

@@ -27,7 +27,7 @@ namespace Common.Interfaces
         /// <param name="entity"></param>
         /// <returns>Số bản ghi bị ảnh hưởng</returns>
         /// CreatedBy:LCQUYEN(10/03/2021)
-        int Insert<MISAEntity>(MISAEntity entity);
+        object Insert<MISAEntity>(MISAEntity entity);
 
         /// <summary>
         /// Hàm dùng chung cập nhật dữ liệu 1 bảng
@@ -46,5 +46,9 @@ namespace Common.Interfaces
         /// <returns>Số bản ghi bị ảnh hưởng</returns>
         /// CreatedBy:LCQUYEN(10/03/2021)
         int Delete<MISAEntity>(Guid entityId);
+
+        MISAEntity GetObjectByProperty<MISAEntity>(string propertyName, object propertyValue);
+
+
     }
 }

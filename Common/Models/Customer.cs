@@ -1,9 +1,10 @@
-﻿using System;
+﻿using Common.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MISA.CukCuk.Common.Model
+namespace MISA.CukCuk.Common.Models
 {
     /// <summary>
     /// Khách hàng
@@ -19,10 +20,13 @@ namespace MISA.CukCuk.Common.Model
         /// <summary>
         /// Khóa chính
         /// </summary>
+        [Primary]
         public Guid CustomerId { get; set; }
         /// <summary>
         ///  Mã khách hàng
         /// </summary>
+        [Required]
+        [CheckDuplicate]
         public string CustomerCode { get; set; }
         /// <summary>
         /// Tên khách hàng
@@ -43,6 +47,8 @@ namespace MISA.CukCuk.Common.Model
         /// <summary>
         /// Số điện thoại liên hệ
         /// </summary>
+        [Required]
+        [CheckDuplicate]
         public string PhoneNumber { get; set; }
         /// <summary>
         /// Ngày sinh

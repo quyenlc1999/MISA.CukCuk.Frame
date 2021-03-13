@@ -1,17 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "txENZNXaw1HPdrYz33MMF6NeQ3elAylyNs/UbokYmegr6VM1WvPArRQYYWqhRNqG/2pOjvUwDZsrbv4KkY1o2A==",
+  "dgSpecHash": "Ug3Jgwy8p8us3n+jz8Ba++sUqZw8KbSFKd1EwLjGJ1d/1CxO54seQfgpnSLh6zp2UmwdpGgCWk2vjcGrAfyRQw==",
   "success": true,
   "projectFilePath": "C:\\Users\\LCQUYEN\\source\\MISA.CukCukFrame\\MISA.CukCuk.Frame\\APIs\\APIs.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LCQUYEN\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
+    "C:\\Users\\LCQUYEN\\.nuget\\packages\\elasticsearch.net\\7.11.1\\elasticsearch.net.7.11.1.nupkg.sha512",
+    "C:\\Users\\LCQUYEN\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
     "C:\\Users\\LCQUYEN\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\LCQUYEN\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\LCQUYEN\\.nuget\\packages\\mysqlconnector\\1.3.1\\mysqlconnector.1.3.1.nupkg.sha512",
+    "C:\\Users\\LCQUYEN\\.nuget\\packages\\nest\\7.11.1\\nest.7.11.1.nupkg.sha512",
     "C:\\Users\\LCQUYEN\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\LCQUYEN\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\LCQUYEN\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
-    "C:\\Users\\LCQUYEN\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+    "C:\\Users\\LCQUYEN\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
+    "C:\\Users\\LCQUYEN\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\LCQUYEN\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

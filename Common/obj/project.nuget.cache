@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "rmOFCZLpskACSWcbicCaFxn/mAyzBYwRdKL86u/1HdvNXxL9Vq2CPoFNAtDZosWnST2ZFlisEY7WrQFLXxyoBA==",
+  "dgSpecHash": "mbqIqpcwWL0y2fcDPQ4ORjoteONkcQ68Vkjx9+ZFwwDZxNUAkEj+Q6QEv6xJG19B00LAuzDwDPO5rJV9kpcEUw==",
   "success": true,
   "projectFilePath": "C:\\Users\\LCQUYEN\\source\\MISA.CukCukFrame\\MISA.CukCuk.Frame\\Common\\Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LCQUYEN\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
+    "C:\\Users\\LCQUYEN\\.nuget\\packages\\elasticsearch.net\\7.11.1\\elasticsearch.net.7.11.1.nupkg.sha512",
+    "C:\\Users\\LCQUYEN\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
     "C:\\Users\\LCQUYEN\\.nuget\\packages\\mysqlconnector\\1.3.1\\mysqlconnector.1.3.1.nupkg.sha512",
+    "C:\\Users\\LCQUYEN\\.nuget\\packages\\nest\\7.11.1\\nest.7.11.1.nupkg.sha512",
+    "C:\\Users\\LCQUYEN\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\LCQUYEN\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
     "C:\\Users\\LCQUYEN\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
   ],
   "logs": []

@@ -7,10 +7,10 @@ namespace Common.Services
 {
     public class CustomerGroupService :BaseService, ICustomerGroupService
     {
-        ICustomerGroupResposity _customerGroupResposity;
+        public ICustomerGroupResposity _customerGroupResposity;
         public CustomerGroupService(ICustomerGroupResposity customerGroupResposity,IBaseResposity baseResposity):base(baseResposity)
         {
-            _customerGroupResposity = customerGroupResposity;
+            this._customerGroupResposity = customerGroupResposity;
         }
     }
 }

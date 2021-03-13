@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MISA.CukCuk.Common.Models;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -27,7 +28,7 @@ namespace Common.Interfaces
         /// <param name="entity"></param>
         /// <returns>Số bản ghi bị ảnh hưởng</returns>
         /// CreatedBy:LCQUYEN(10/03/2021)
-        int Insert<MISAEntity>(MISAEntity entity);
+        ServiceResult Insert<MISAEntity>(MISAEntity entity);
 
         /// <summary>
         /// Hàm dùng chung cập nhật dữ liệu 1 bảng
@@ -46,5 +47,12 @@ namespace Common.Interfaces
         /// <returns>Số bản ghi bị ảnh hưởng</returns>
         /// CreatedBy:LCQUYEN(10/03/2021)
         int Delete<MISAEntity>(Guid entityId);
+        /// <summary>
+        /// Hàm validate dùng chung
+        /// </summary>
+        /// <typeparam name="MISAEntity">Object của 1 bảng</typeparam>
+        /// <param name="entity"></param>
+        /// <returns>true:thành công , false:thất bại</returns>
+    //    bool Validate<MISAEntity>(MISAEntity entity);
     }
 }
